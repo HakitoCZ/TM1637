@@ -4,11 +4,11 @@
 // I'm only using the Chinglish datasheet as a refference.
 
 const uint8_t clk = 2;
-const uint8_t dio = 3;
+const uint8_t dta = 3;  // data is output only
 
 void setup() {
   pinMode(clk, OUTPUT);
-  pinMode(dio, OUTPUT);
+  pinMode(dta, OUTPUT);
 
 }
 
